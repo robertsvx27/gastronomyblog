@@ -1,0 +1,63 @@
+body {
+    /* background: #66999 url(../images/bg-1.jpg) center center cover no-repeat fixed;*/
+    background: url("../images/bg-01.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+.container {
+    background: orange;
+    opacity: 0.75;
+}
+.cabecera {
+    padding: 5px;
+}
+.lateral {
+    background: #005aff;
+    padding: 5px;
+}
+.contenido {
+    background: #ff005a;
+    padding: 5px;
+}
+
+.borde{
+    border-bottom: 1px solid #000;
+}
+
+.mnu a {
+    color: #FFF6A2;
+}
+.mnu a:hover {
+    color: #9FEED1;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.subtitulo {
+    font-style: italic;
+    text-align: right;
+}
+.fecha {
+    font-variant: small-caps;
+}
+.subtitulo-lateral {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.titulo-entrada {
+    letter-spacing: 4px;
+}
+.formulario {
+    width: 100%;
+}
+.derecha {
+    text-align: right;
+}
+.menu-lateral a {
+    color: #FFF6A2;
+}
+.menu-lateral a:hover {
+    color: #9FEED1;
+    font-weight: bold;
+    font-variant: small-caps;
+}
